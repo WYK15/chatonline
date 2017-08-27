@@ -2,7 +2,7 @@
   "name": "socketchat",
   "version": "1.0.0",
   "description": "this is chat online",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"supervisor server.js"
@@ -17,6 +17,7 @@
     "express": "^4.15.4",
     "socket.io": "^2.0.3",
     "supervisor": "^0.12.0",
-    "node":"^6.10.1"
+    "node":"6.10.1",
+	"npm":"3.10.10"
   }
 }
