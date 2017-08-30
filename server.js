@@ -35,7 +35,7 @@ io.on('connection',function (socket) {
         }
     });
 
-    socket.on('postMsg',function (msg) {
-        io.emit('newMsg',socket.nickname,msg);
+    socket.on('postMsg',function (msg,color) {
+        io.emit('newMsg',socket.nickname,msg,color);
     });
 });

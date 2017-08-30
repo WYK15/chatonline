@@ -45,5 +45,14 @@
 <script  src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
 <script src="./scripts/socket.io.js"></script>
 <script src="./scripts/init.js"></script>
+<script>
+ window.onload = function () {
+     for(var i = 1;i<=40;i++){
+        var dir = "photos/rabbit/emo"+i;
+        $('#emojiWrapper').append("<img src="+dir+".gif"+ " title="+i+">");
+     }
+ }
+
+</script>
 </body>
 </html>
